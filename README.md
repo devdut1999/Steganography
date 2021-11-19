@@ -2,7 +2,7 @@
 
 ## Folder Structure :
   
-  	1)Exp_Images : 
+  	***1)Exp_Images : ***
     The actual images
   
 	2)Stego Image :
