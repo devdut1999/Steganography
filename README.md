@@ -22,18 +22,18 @@
         c)Secret message is given in line number 17
         d)alpha is given in line number 18
     
-####  code to run this file :
-          pip install bitstring
-          python3 run_stego_algorithm_PDCT.py
+####    code to run this file :
+	  pip install bitstring
+	  python3 run_stego_algorithm_PDCT.py
 
 #### 6)run_stego_algorithm.py :
         a)Prepares the dct embedded images
         b)The file paths for the original and stego image are given in line numbers 14 and 15 inside the file 
         c)Secret message is given in line number 16
   
-####  code to run this file :
-		  pip install bitstring
-		  python3 run_stego_algorithm_PDCT.py
+####    code to run this file :
+	  pip install bitstring
+	  python3 run_stego_algorithm_PDCT.py
 
 #### 7)extract_stego_image.py :
 		Extract the secret message hidden inside the stego images
