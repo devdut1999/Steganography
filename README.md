@@ -39,7 +39,8 @@
 		Extract the secret message hidden inside the stego images
 		Currently works only for the dct embedded images
 
-#### 8)zigzag.py :****Explnation :**** 
+#### 8)zigzag.py :
+		Explnation : 
 		
 		Once each 8x8 block of the image has been transformed into DCT, “each DCT coefficient indicates the amount of a particular 
 		horizontal or vertical frequency within the block. DCT coefficient (0, 0) is the DC coefficient, or average sample value. 
