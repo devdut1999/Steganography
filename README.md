@@ -1,24 +1,22 @@
 # Steganography
-## Proposed Paper :
-  https://github.com/MasonEdgar/DCT-Image-Steganography/blob/main/Image_Steganography_Report.pdf
 
 ## Folder Structure :
   
-###  1)Exp_Images : 
+  	1)Exp_Images : 
     The actual images
   
-###  2)Stego Image :
+	2)Stego Image :
     The PDCT embedded images
   
-###  3)image_preparation.py : 
+	3)image_preparation.py : 
     a) Convert Images into YCBCR 
     b) Divides the images into 8*8 blocks
     c)Converts the 8*8 blocks back into original image
   
-###  4)data_embedding.py : 
+	4)data_embedding.py : 
     Embeds tha secret message in the lsb of the dct/pdct coefficients
-  
-###  5)run_stego_algorithm_PDCT.py :
+  	
+	5)run_stego_algorithm_PDCT.py :
     a)Prepares the pdct embedded images
     b)The file paths for the original and stego image are given in line numbers 15 and 16 inside the file 
     c)Secret message is given in line number 17
@@ -28,7 +26,7 @@
       pip install bitstring
       python3 run_stego_algorithm_PDCT.py
 
-###  6)run_stego_algorithm.py :
+	6)run_stego_algorithm.py :
     a)Prepares the dct embedded images
     b)The file paths for the original and stego image are given in line numbers 14 and 15 inside the file 
     c)Secret message is given in line number 16
@@ -37,11 +35,11 @@
       pip install bitstring
       python3 run_stego_algorithm_PDCT.py
 
-###  7)extract_stego_image.py :
+	7)extract_stego_image.py :
     Extract the secret message hidden inside the stego images
     Currently works only for the dct embedded images
 
-###  8)zigzag.py :
+	8)zigzag.py :
     Explnation : 
     Once each 8x8 block of the image has been transformed into DCT, “each DCT 
     coefficient indicates the amount of a particular horizontal or 
