@@ -1,6 +1,8 @@
 # Steganography
 
-## Folder Structure :
+## Description
+
+## Folder Structure 
   
 ####  1)Exp_Images 
 	The actual images
