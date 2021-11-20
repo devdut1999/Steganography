@@ -9,28 +9,28 @@
 	The PDCT embedded images
   
 #### 3)image_preparation.py : 
-        a) Convert Images into YCBCR 
-        b) Divides the images into 8*8 blocks
-        c)Converts the 8*8 blocks back into original image
+	a) Convert Images into YCBCR 
+	b) Divides the images into 8*8 blocks
+	c)Converts the 8*8 blocks back into original image
   
 #### 4)data_embedding.py : 
 	Embeds tha secret message in the lsb of the dct/pdct coefficients
   	
 #### 5)run_stego_algorithm_PDCT.py :
-        a)Prepares the pdct embedded images
-        b)The file paths for the original and stego image are given in line numbers 15 and 16 inside the file 
-        c)Secret message is given in line number 17
-        d)alpha is given in line number 18
+	a)Prepares the pdct embedded images
+	b)The file paths for the original and stego image are given in line numbers 15 and 16 inside the file 
+	c)Secret message is given in line number 17
+	d)alpha is given in line number 18
     
 #### code to run this file :
 	a)pip install bitstring
 	b)python3 run_stego_algorithm_PDCT.py
 
 #### 6)run_stego_algorithm.py :
-        a)Prepares the dct embedded images
-        b)The file paths for the original and stego image are given in line numbers 14 and 15 inside the file 
-        c)Secret message is given in line number 16
-  
+	a)Prepares the dct embedded images
+	b)The file paths for the original and stego image are given in line numbers 14 and 15 inside the file 
+	c)Secret message is given in line number 16
+
 #### code to run this file :
 	a)pip install bitstring
 	b)python3 run_stego_algorithm_PDCT.py
