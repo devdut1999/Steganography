@@ -9,8 +9,8 @@
 	The PDCT embedded images
   
 #### 3)image_preparation.py : 
-	a) Convert Images into YCBCR 
-	b) Divides the images into 8*8 blocks
+	a)Convert Images into YCBCR 
+	b)Divides the images into 8*8 blocks
 	c)Converts the 8*8 blocks back into original image
   
 #### 4)data_embedding.py : 
@@ -23,8 +23,8 @@
 	d)alpha is given in line number 18
     
 #### code to run this file :
-	a)pip install bitstring
-	b)python3 run_stego_algorithm_PDCT.py
+	pip install bitstring
+	python3 run_stego_algorithm_PDCT.py
 
 #### 6)run_stego_algorithm.py :
 	a)Prepares the dct embedded images
@@ -32,8 +32,8 @@
 	c)Secret message is given in line number 16
 
 #### code to run this file :
-	a)pip install bitstring
-	b)python3 run_stego_algorithm_PDCT.py
+	pip install bitstring
+	python3 run_stego_algorithm_PDCT.py
 
 #### 7)extract_stego_image.py :
 	a)Extract the secret message hidden inside the stego images
