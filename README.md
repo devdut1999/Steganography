@@ -6,8 +6,8 @@
 	visual and statistical detectability. Several steganographic methods have been developed for data hiding in images and
 	videos in recent years. In this project, a JPEG domain steganographic algorithm has been proposed which separates the 
 	embedding domain from steganalytic domain using parametric randomization of Discrete Cosine Transform. The parametric 
-	DCT kernel is obtained by raising the fractional power of the usual DCT kernel.The DCT coefficient distribution is changed
-	due to the modified DCT kernel. After embedding in this parametric DCT domain, inverse transform is done using
+	DCT kernel is obtained by raising the fractional power of the usual DCT kernel.The DCT coefficient distribution is 
+	changed due to the modified DCT kernel. After embedding in this parametric DCT domain, inverse transform is done using
 	the same DCT kernel to get the spatial domain embedded image. This spatial domain embedded image is subjected to
 	normal JPEG compression to get JPEG compressed stego image which is communicated to the recipient.
 	
